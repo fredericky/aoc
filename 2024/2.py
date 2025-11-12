@@ -23,7 +23,7 @@ def is_almost_safe(report: List[int]) -> bool:
 	return False
 
 def solve_p1():
-	with open("./input", "r") as f:
+	with open("./2.in", "r") as f:
 		safe_count = 0
 		for line in f:
 			report = list(map(int, line.split()))
@@ -32,7 +32,7 @@ def solve_p1():
 	print(safe_count)
 
 def solve_p2():
-	with open("./input", "r") as f:
+	with open("./2.in", "r") as f:
 		almost_safe_count = 0
 		for line in f:
 			report = list(map(int, line.split()))

@@ -3,7 +3,7 @@ import collections
 def cal_distance():
     left = []
     right = []
-    with open("./input", "r") as f:
+    with open("./1.in", "r") as f:
         for line in f:
             num1, num2 = map(int, line.strip().split())
             left.append(num1)
@@ -19,7 +19,7 @@ def cal_distance():
 def cal_similarity_score():
     left = []
     right = collections.defaultdict(int)
-    with open("./input", "r") as f:
+    with open("./1.in", "r") as f:
         for line in f:
             num1, num2 = map(int, line.strip().split())
             left.append(num1)
